@@ -136,7 +136,7 @@ O(n^2) A quadratic algorithm often contains two nested loops.
                          
 O(n^3) A cubic algorithm often contains three nested loops.  
                          
-O(2n) This time complexity often indicates that the algorithm iterates through
+O(2^n) This time complexity often indicates that the algorithm iterates through
 all subsets of the input elements. For example, the subsets of {1,2,3} are ;,
 {1}, {2}, {3}, {1,2}, {1,3}, {2,3} and {1,2,3}.  
                          
@@ -145,5 +145,5 @@ all permutations of the input elements. For example, the permutations of
 {1,2,3} are (1,2,3), (1,3,2), (2,1,3), (2,3,1), (3,1,2) and (3,2,1).
                          
                          
-- An algorithm is polynomial if its time complexity is at most O(nk) where k is
+- An algorithm is polynomial if its time complexity is at most O(n^k) where k is
 a constant. All the above time complexities except O(2n) and O(n!) are polynomial.                         
